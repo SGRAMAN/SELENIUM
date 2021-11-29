@@ -24,5 +24,6 @@ public class Practice2 {
 		WebElement txt = driver.findElement(By.xpath("//p[contains(text(),'400+')]"));
 		String text = txt.getText();
 		System.out.println(text);
+		System.out.println("perf to master");
 }
 }
